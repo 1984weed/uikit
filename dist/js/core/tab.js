@@ -84,7 +84,7 @@
             });
 
             this.on('show.uk.switcher change.uk.tab', function(e, tab) {
-                $this.responsivetab.caption.html(tab.text());
+                $this.responsivetab.caption.html(tab.html());
             });
 
             this.element.append(this.responsivetab);
